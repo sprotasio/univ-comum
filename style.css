@@ -322,7 +322,7 @@ textarea:valid ~ label {
     font-size: 24px;
   }
 
-  .contact-title {
+  .contact-title h1 {
     font-size: 26px;
     top: 5%;
   }
