@@ -181,6 +181,24 @@ p {
   padding: 0;
 }
 
+/* Footer */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+.social-icons {
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
 @media (max-width: 700px) {
   .text-box h1 {
     font-size: 24px;
