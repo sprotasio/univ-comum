@@ -85,6 +85,7 @@ nav img {
 .text-box p {
   margin: 10px 0 40px;
   font-size: 24px;
+  line-height: 1.5;
   color: black;
 }
 
@@ -162,10 +163,36 @@ p {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
+.call-action {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/Activism_Course.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.call-action h1 {
+  color: white;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
 @media (max-width: 700px) {
   .text-box h1 {
     font-size: 24px;
   }
+  .text-box p {
+    font-size: 14px;
+  }
+
+  .hero-btn {
+    font-size: 14px;
+  }
+
   .nav-links ul li {
     display: block;
   }
@@ -190,8 +217,10 @@ p {
   .nav-links ul {
     padding: 30px;
   }
-
   .row {
     flex-direction: column;
+  }
+  .call-action h1 {
+    font-size: 24px;
   }
 }
