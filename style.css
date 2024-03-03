@@ -84,7 +84,7 @@ nav img {
 }
 
 .text-box p {
-  margin: 10px 0 40px;
+  margin: 10px 20px 40px;
   font-size: 24px;
   line-height: 1.5;
   color: black;
@@ -216,12 +216,16 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  text-align: center;
 }
 
 .hero-contact h1 {
   font-size: 72;
   position: absolute;
-  top: 300px;
+  top: 10%;
+  width: 100%;
+  font-size: 62px;
 }
 
 form {
@@ -263,8 +267,8 @@ button {
   outline: none;
   background: transparent;
   border: 1px solid black;
-  width: 104%;
   cursor: pointer;
+  width: 50%;
 }
 
 input:focus ~ label,
@@ -318,5 +322,14 @@ textarea:valid ~ label {
   }
   .call-action h1 {
     font-size: 24px;
+  }
+
+  .hero-contact h1 {
+    font-size: 36px;
+    top: 5%;
+  }
+
+  form {
+    width: 75%;
   }
 }
