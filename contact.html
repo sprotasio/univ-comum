@@ -33,22 +33,27 @@
         </nav>
 
         <div class="hero-contact">
-            <h1>CONTACTE-NOS</h1>
-            <form>
-                <div class="input-group">
-                    <input type="text" id="name" required>
-                    <label for="name"> <i class="fa-regular fa-user"></i> Nome</label>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="contact-title">
+                    <h1>CONTACTE-NOS</h1>
                 </div>
                 <div class="input-group">
-                    <input type="text" id="email" required>
-                    <label for="email"> <i class="fa-regular fa-envelope"></i> Endereço de email</label>
-                </div>
+                    <input type="hidden" name="access_key" value="b9418250-4caf-4d58-b7a1-862732d2f4e6" </div>
+                    <div class="input-group">
+                        <input type="text" name="name" id="name" required>
+                        <label for="name"> <i class="fa-regular fa-user"></i> Nome</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="email" id="email" required>
+                        <label for="email"> <i class="fa-regular fa-envelope"></i> Endereço de email</label>
+                    </div>
 
-                <div class="input-group">
-                    <textarea id="message" rows="8" required></textarea>
-                    <label for="message"> <i class="fa-regular fa-comment-dots"></i> Escreva a sua mensagem</label>
-                </div>
-                <button type="submit">ENVIAR <i class="fa-regular fa-paper-plane"></i></button>
+                    <div class="input-group">
+                        <textarea id="message" rows="8" required></textarea>
+                        <label for="message" name="message"> <i class="fa-regular fa-comment-dots"></i> Escreva a sua
+                            mensagem</label>
+                    </div>
+                    <button type="submit">ENVIAR <i class="fa-regular fa-paper-plane"></i></button>
             </form>
         </div>
     </section>
