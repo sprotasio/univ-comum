@@ -116,11 +116,37 @@ nav .bi {
 /* text field */
 
 .text-field {
-  width: 90%;
+  width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 60px;
+  font-size: 18px; 
 }
+
+.text-field-nothd {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px; 
+}
+
+.text-field-nothd-insidebox {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 16px; 
+}
+
+.text-field-webside {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 10px;
+  font-size: 8px; 
+}
+
 
 h1 {
   font-size: 36px;
@@ -172,6 +198,19 @@ p {
       rgba(0, 0, 0, 0.7)
     ),
     url(images/UniversityClass.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.call-action_no_image {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(0, 0, 0, 0.7)
   background-position: center;
   background-size: cover;
   border-radius: 10px;
