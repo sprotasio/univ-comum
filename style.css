@@ -92,7 +92,7 @@ nav img {
 }
 
 .text-box h1 {
-  font-size: 72px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
 
@@ -149,7 +149,7 @@ nav .bi {
   margin: auto;
   text-align: center;
   padding-top: 10px;
-  font-size: 16px; 
+  font-size: 18px; 
 }
 
 
@@ -256,7 +256,6 @@ p {
   position: relative;
   text-align: center;
   }
-  
   .contact-title h1 {
   margin-bottom: 50px;
   width: 100%;
@@ -265,15 +264,13 @@ p {
   
   form {
   width: 190%;
-  max-width: 600px;
+  max-width: 700px;
   z-index: 1;
   }
-  
   .input-group {
   margin-bottom: 30px;
   position: relative;
   }
-  
   input,
   textarea {
   width: 100%;
@@ -284,7 +281,6 @@ p {
   background: transparent;
   font-size: 15px;
   }
-  
   label {
   height: 100%;
   position: absolute;
@@ -295,7 +291,6 @@ p {
   cursor: text;
   transition: 0.2s;
   }
-  
   button {
   padding: 10px 0;
   color: black;
@@ -305,7 +300,6 @@ p {
   cursor: pointer;
   width: 50%;
   }
-  
   input:focus ~ label,
   input:valid ~ label,
   textarea:focus ~ label,
@@ -360,7 +354,7 @@ p {
   }
 
   .contact-title h1 {
-    font-size: 26px;
+    font-size: 24px;
     top: 5%;
   }
 
