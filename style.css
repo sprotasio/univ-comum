@@ -25,6 +25,8 @@ body {
   background-size: cover;
   position: relative;
 }
+/* Footer */
+
 
 .footer {
   min-height: 20vh;
@@ -38,6 +40,7 @@ body {
   background-size: cover;
   position: relative;
 }
+/* End Footer */
 
 nav {
   display: flex;
@@ -85,7 +88,7 @@ nav img {
   width: 100%;
   color: black;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -97,7 +100,7 @@ nav img {
 }
 
 .text-box p {
-  margin: 10px 20px 40px;
+  margin: 10px 20px;
   font-size: 24px;
   line-height: 1.5;
   color: black;
@@ -256,6 +259,7 @@ p {
   position: relative;
   text-align: center;
   }
+
   .contact-title h1 {
   margin-bottom: 50px;
   width: 100%;
