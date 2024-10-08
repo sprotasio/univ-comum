@@ -351,7 +351,7 @@ p {
     padding: 30px;
   }
   .row {
-    flex-direction: column;
+    flex-direction: row;
   }
   .call-action h1 {
     font-size: 24px;
