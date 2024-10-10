@@ -164,7 +164,11 @@ h1 {
 }
 
 p {
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 24px;
+>>>>>>> 0d2d602 (format 4)
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
