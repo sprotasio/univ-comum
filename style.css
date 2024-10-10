@@ -132,7 +132,7 @@ nav .bi {
 /* text field */
 
 .text-field {
-  width: 80%;
+  width: 90%;
   margin: auto;
   text-align: center;
   padding-top: 60px;
@@ -140,10 +140,10 @@ nav .bi {
 }
 
 .text-field-nothd {
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 10%;
   font-size: 20px; 
 }
 
